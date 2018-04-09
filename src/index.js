@@ -11,6 +11,7 @@ const links = [{
     href: 'http://www.thinkful.com/mentorship/'
 }];
 
+
 ReactDOM.render(
   <NavigationBar title="Thinkful" links={links} />,
   document.getElementById('root')
